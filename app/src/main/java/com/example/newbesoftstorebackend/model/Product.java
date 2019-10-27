@@ -1,23 +1,19 @@
 package com.example.newbesoftstorebackend.model;
 
 public class Product {
-    private int id;
+    private String id;
     private String name;
+    private String image;
     private String description;
-    private int price;
+    private String price;
+    private String createAT;
+    private String updatedAt;
 
-    public Product(int id, String name, String description, int price) {
-        this.id = id;
-        this.name = name;
-        this.description = description;
-        this.price = price;
-    }
-
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
@@ -29,6 +25,14 @@ public class Product {
         this.name = name;
     }
 
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
+    }
+
     public String getDescription() {
         return description;
     }
@@ -37,11 +41,40 @@ public class Product {
         this.description = description;
     }
 
-    public int getPrice() {
+    public String getPrice() {
         return price;
     }
 
-    public void setPrice(int price) {
+    public void setPrice(String price) {
         this.price = price;
+    }
+
+    public String getCreateAT() {
+        return createAT;
+    }
+
+    public void setCreateAT(String createAT) {
+        this.createAT = createAT;
+    }
+
+    public String getUpdatedAt() {
+        return updatedAt;
+    }
+
+    public void setUpdatedAt(String updatedAt) {
+        this.updatedAt = updatedAt;
+    }
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", image='" + image + '\'' +
+                ", description='" + description + '\'' +
+                ", price='" + price + '\'' +
+                ", createAT='" + createAT + '\'' +
+                ", updatedAt='" + updatedAt + '\'' +
+                '}';
     }
 }
