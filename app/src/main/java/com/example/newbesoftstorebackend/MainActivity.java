@@ -36,44 +36,44 @@ public class MainActivity extends AppCompatActivity {
 
 //        mTextViewResult = findViewById(R.id.text_view_result);
 
-        final ArrayList<Product> products = new ArrayList<>();
-        linearLayout = findViewById(R.id.linearLayout);
-
-        OkHttpClient client = new OkHttpClient();
+//        final ArrayList<Product> products = new ArrayList<>();
+//        linearLayout = findViewById(R.id.linearLayout);
 //
-        String url = " https://newbestore.herokuapp.com/products";
+//        OkHttpClient client = new OkHttpClient();
+////
+//        String url = " https://newbestore.herokuapp.com/products";
+////
+//        Request request = new Request.Builder()
+//                .url(url)
+//                .get()
+//                .addHeader("content-type", "application/json")
+//                .addHeader("accept-type", "application/json")
+//                .build();
+////
+//        client.newCall(request).enqueue(new Callback() {
+//            @Override
+//            public void onFailure(Call call, IOException e) {
+//                e.printStackTrace();
+//            }
 //
-        Request request = new Request.Builder()
-                .url(url)
-                .get()
-                .addHeader("content-type", "application/json")
-                .addHeader("accept-type", "application/json")
-                .build();
+//            @Override
+//            public void onResponse(Call call, Response response) throws IOException {
+//                if(response.isSuccessful()) {
+//                    System.out.println(response.body().toString());
+//                    for(int i = 0;i <= response.body().contentLength(); i++){
 //
-        client.newCall(request).enqueue(new Callback() {
-            @Override
-            public void onFailure(Call call, IOException e) {
-                e.printStackTrace();
-            }
-
-            @Override
-            public void onResponse(Call call, Response response) throws IOException {
-                if(response.isSuccessful()) {
-                    System.out.println(response.body().toString());
-                    for(int i = 0;i <= response.body().contentLength(); i++){
-
-                        Intent intent = new Intent();
-    //                        products.add(new Product(Integer.parseInt(jsonObject.getJSONObject(i).id)), jsonObject[i].);
-    //                            TextView textView = new TextView(MainActivity.this);
-    //                            textView.setText("TextView ");
-    //                            linearLayout.addView(textView);
-                    }
-
-                    String myResponse = response.body().string();
-                    System.out.println(myResponse.getClass());
-                }
-            }
-        });
+//                        Intent intent = new Intent();
+//    //                        products.add(new Product(Integer.parseInt(jsonObject.getJSONObject(i).id)), jsonObject[i].);
+//    //                            TextView textView = new TextView(MainActivity.this);
+//    //                            textView.setText("TextView ");
+//    //                            linearLayout.addView(textView);
+//                    }
+//
+//                    String myResponse = response.body().string();
+//                    System.out.println(myResponse.getClass());
+//                }
+//            }
+//        });
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
