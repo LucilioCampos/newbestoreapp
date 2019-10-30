@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -20,6 +20,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="214dp"
+                android:id="@+id/product_image_1"
                 tools:srcCompat="@tools:sample/avatars[14]" />
 
             <TextView
@@ -27,162 +28,213 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
+                android:id="@+id/product_name_1"
                 android:text="Produto teste" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
+                android:id="@+id/product_price_1"
                 android:text="299,99" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="BUY" />
+                android:text="BUY"
+                android:id="@+id/btn_product_1"
+            />
 
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="214dp"
-                tools:srcCompat="@tools:sample/avatars[14]" />
+                tools:srcCompat="@tools:sample/avatars[14]"
+                android:id="@+id/product_image_2"
+            />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
+                android:id="@+id/product_name_2"
                 android:text="Produto teste" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="299,99" />
+                android:text="299,99"
+                android:id="@+id/product_price_2"
+            />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="BUY" />
+                android:text="BUY"
+                android:id="@+id/btn_product_2"
+                />
 
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="214dp"
-                tools:srcCompat="@tools:sample/avatars[14]" />
+                tools:srcCompat="@tools:sample/avatars[14]"
+                android:id="@+id/product_image_3"
+            />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="Produto teste" />
+                android:text="Produto teste"
+                android:id="@+id/product_name_3"
+            />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="299,99" />
+                android:text="299,99"
+                android:id="@+id/product_price_3"
+            />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="BUY" />
+                android:text="BUY"
+                android:id="@+id/btn_product_3"
+                />
 
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="214dp"
-                tools:srcCompat="@tools:sample/avatars[14]" />
+                tools:srcCompat="@tools:sample/avatars[14]"
+                android:id="@+id/product_image_4"
+            />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="Produto teste" />
+                android:text="Produto teste"
+                android:id="@+id/product_name_4"
+            />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="299,99" />
+                android:text="299,99"
+                android:id="@+id/product_price_4"
+            />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="BUY" />
+                android:text="BUY"
+                android:id="@+id/btn_product_4"
+                />
 
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="214dp"
-                tools:srcCompat="@tools:sample/avatars[14]" />
+                tools:srcCompat="@tools:sample/avatars[14]"
+                android:id="@+id/product_image_5"
+            />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="Produto teste" />
+                android:text="Produto teste"
+                android:id="@+id/product_name_5"
+            />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="299,99" />
+                android:text="299,99"
+                android:id="@+id/product_price_5"
+            />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="BUY" />
+                android:text="BUY"
+                android:id="@+id/btn_product_5"
+                />
 
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="214dp"
-                tools:srcCompat="@tools:sample/avatars[14]" />
+                tools:srcCompat="@tools:sample/avatars[14]"
+                android:id="@+id/product_image_6"
+            />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="Produto teste" />
+                android:text="Produto teste"
+                android:id="@+id/product_name_6"
+            />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="299,99" />
+                android:text="299,99"
+                android:id="@+id/product_price_6"
+            />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="BUY" />
+                android:text="BUY"
+                android:id="@+id/btn_product_6"
+                />
 
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="214dp"
-                tools:srcCompat="@tools:sample/avatars[14]" />
+                tools:srcCompat="@tools:sample/avatars[14]"
+                android:id="@+id/product_image_7"
+            />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="Produto teste" />
+                android:text="Produto teste"
+                android:id="@+id/product_name_7"
+            />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="299,99" />
+                android:text="299,99"
+                android:id="@+id/product_price_7"
+            />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="BUY" />
+                android:text="BUY"
+                android:id="@+id/btn_product_7"
+                />
         </LinearLayout>
     </ScrollView>
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
