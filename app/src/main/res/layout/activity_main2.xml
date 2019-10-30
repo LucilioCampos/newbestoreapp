@@ -18,25 +18,26 @@
             android:orientation="vertical" >
 
             <ImageView
+                android:id="@+id/product_image_1"
                 android:layout_width="match_parent"
                 android:layout_height="214dp"
-                android:id="@+id/product_image_1"
-                tools:srcCompat="@tools:sample/avatars[14]" />
+                tools:srcCompat="@drawable/product1" />
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:gravity="center"
                 android:id="@+id/product_name_1"
-                android:text="Produto teste" />
-            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
+                android:text="Brinquedos Trixie Gatos, Circuito com Torre de Plástico, 25/13 cm - Ensaio" />
+
+            <TextView
                 android:id="@+id/product_price_1"
-                android:text="299,99" />
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="34,15" />
 
             <Button
                 android:layout_width="match_parent"
@@ -47,11 +48,10 @@
 
 
             <ImageView
+                android:id="@+id/product_image_2"
                 android:layout_width="match_parent"
                 android:layout_height="214dp"
-                tools:srcCompat="@tools:sample/avatars[14]"
-                android:id="@+id/product_image_2"
-            />
+                tools:srcCompat="@drawable/product2" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -59,13 +59,13 @@
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:id="@+id/product_name_2"
-                android:text="Produto teste" />
+                android:text="Comida enlatada para cachorro" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="299,99"
+                android:text="340,15"
                 android:id="@+id/product_price_2"
             />
 
@@ -78,18 +78,17 @@
 
 
             <ImageView
+                android:id="@+id/product_image_3"
                 android:layout_width="match_parent"
                 android:layout_height="214dp"
-                tools:srcCompat="@tools:sample/avatars[14]"
-                android:id="@+id/product_image_3"
-            />
+                tools:srcCompat="@drawable/product3" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="Produto teste"
+                android:text="Pote para comida"
                 android:id="@+id/product_name_3"
             />
             <TextView
@@ -97,7 +96,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="299,99"
+                android:text="24,00"
                 android:id="@+id/product_price_3"
             />
 
@@ -110,18 +109,17 @@
 
 
             <ImageView
+                android:id="@+id/product_image_4"
                 android:layout_width="match_parent"
                 android:layout_height="214dp"
-                tools:srcCompat="@tools:sample/avatars[14]"
-                android:id="@+id/product_image_4"
-            />
+                tools:srcCompat="@drawable/product4" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="Produto teste"
+                android:text="Coleira de cachorro"
                 android:id="@+id/product_name_4"
             />
             <TextView
@@ -129,7 +127,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="299,99"
+                android:text="22,00"
                 android:id="@+id/product_price_4"
             />
 
@@ -142,18 +140,17 @@
 
 
             <ImageView
+                android:id="@+id/product_image_5"
                 android:layout_width="match_parent"
                 android:layout_height="214dp"
-                tools:srcCompat="@tools:sample/avatars[14]"
-                android:id="@+id/product_image_5"
-            />
+                tools:srcCompat="@drawable/product5" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="Produto teste"
+                android:text="Comida seca para cachorro"
                 android:id="@+id/product_name_5"
             />
             <TextView
@@ -161,7 +158,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="299,99"
+                android:text="05,00"
                 android:id="@+id/product_price_5"
             />
 
@@ -174,18 +171,17 @@
 
 
             <ImageView
+                android:id="@+id/product_image_6"
                 android:layout_width="match_parent"
                 android:layout_height="214dp"
-                tools:srcCompat="@tools:sample/avatars[14]"
-                android:id="@+id/product_image_6"
-            />
+                tools:srcCompat="@drawable/product6" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="Produto teste"
+                android:text="Assento Car Seat Chalesco para Cães e Gatos - Rosa"
                 android:id="@+id/product_name_6"
             />
             <TextView
@@ -193,7 +189,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="299,99"
+                android:text="134,00"
                 android:id="@+id/product_price_6"
             />
 
@@ -206,18 +202,17 @@
 
 
             <ImageView
+                android:id="@+id/product_image_7"
                 android:layout_width="match_parent"
                 android:layout_height="214dp"
-                tools:srcCompat="@tools:sample/avatars[14]"
-                android:id="@+id/product_image_7"
-            />
+                tools:srcCompat="@drawable/product7" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="Produto teste"
+                android:text="Capa de Proteção PetGo Tiffany para Banco Traseiro Veicular - Preto"
                 android:id="@+id/product_name_7"
             />
             <TextView
@@ -225,7 +220,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="299,99"
+                android:text="134,00"
                 android:id="@+id/product_price_7"
             />
 
@@ -234,6 +229,100 @@
                 android:layout_height="wrap_content"
                 android:text="BUY"
                 android:id="@+id/btn_product_7"
+                />
+
+            <ImageView
+                android:id="@+id/product_image_8"
+                android:layout_width="match_parent"
+                android:layout_height="214dp"
+                tools:srcCompat="@drawable/product8" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Capa Chalesco para Carro"
+                android:id="@+id/product_name_8"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="200,00"
+                android:id="@+id/product_price_8"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BUY"
+                android:id="@+id/btn_product_8"
+                />
+
+
+            <ImageView
+                android:id="@+id/product_image_9"
+                android:layout_width="match_parent"
+                android:layout_height="214dp"
+                tools:srcCompat="@drawable/product8" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Medalha de Identificação Chaveiro Fábrica Pet em Metal - Prata"
+                android:id="@+id/product_name_9"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="10,00"
+                android:id="@+id/product_price_9"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BUY"
+                android:id="@+id/btn_product_9"
+                />
+
+
+
+
+            <ImageView
+                android:id="@+id/product_image_10"
+                android:layout_width="match_parent"
+                android:layout_height="214dp"
+                tools:srcCompat="@drawable/product10" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Porta Retrato Pet Pearhead de Parede - Madeira Escura"
+                android:id="@+id/product_name_10"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="60,00"
+                android:id="@+id/product_price_10"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BUY"
+                android:id="@+id/btn_product_10"
                 />
         </LinearLayout>
     </ScrollView>
