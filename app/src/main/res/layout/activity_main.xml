@@ -8,24 +8,30 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="214dp"
-        android:contentDescription="teste"
-        tools:srcCompat="@tools:sample/avatars[4]" />
-
     <TextView
-        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="Digite seu e-mail e senha"
+    />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="44dp"
-        android:layout_height="126dp"
-        android:text="TextView" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+    />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+    />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/btnLogin"
+
+    />
 
 
 </LinearLayout>

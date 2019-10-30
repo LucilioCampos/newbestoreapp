@@ -1,86 +1,41 @@
 package com.example.newbesoftstorebackend;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
-import android.view.textclassifier.TextLinks;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.ListView;
-import android.widget.TextView;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
 
-import com.example.newbesoftstorebackend.model.Product;
-
-import org.json.JSONArray;
-import org.json.JSONObject;
-
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-
-import okhttp3.Call;
-import okhttp3.Callback;
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.Response;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-    private TextView mTextViewResult;
-    LinearLayout linearLayout;
-    Product product;
+    private EditText username;
+    private EditText password;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-//        ListView productList = (ListView) findViewById(R.id.lista);
-//        List<Product> products = allProducts();
-
-//        mTextViewResult = findViewById(R.id.text_view_result);
-
-//        final ArrayList<Product> products = new ArrayList<>();
-//        linearLayout = findViewById(R.id.linearLayout);
-//
-//        OkHttpClient client = new OkHttpClient();
-////
-//        String url = " https://newbestore.herokuapp.com/products";
-////
-//        Request request = new Request.Builder()
-//                .url(url)
-//                .get()
-//                .addHeader("content-type", "application/json")
-//                .addHeader("accept-type", "application/json")
-//                .build();
-////
-//        client.newCall(request).enqueue(new Callback() {
-//            @Override
-//            public void onFailure(Call call, IOException e) {
-//                e.printStackTrace();
-//            }
-//
-//            @Override
-//            public void onResponse(Call call, Response response) throws IOException {
-//                if(response.isSuccessful()) {
-//                    System.out.println(response.body().toString());
-//                    for(int i = 0;i <= response.body().contentLength(); i++){
-//
-//                        Intent intent = new Intent();
-//    //                        products.add(new Product(Integer.parseInt(jsonObject.getJSONObject(i).id)), jsonObject[i].);
-//    //                            TextView textView = new TextView(MainActivity.this);
-//    //                            textView.setText("TextView ");
-//    //                            linearLayout.addView(textView);
-//                    }
-//
-//                    String myResponse = response.body().string();
-//                    System.out.println(myResponse.getClass());
-//                }
-//            }
-//        });
+        final Button btnLogin = (Button) findViewById(R.id.btnLogin);
+        username = (EditText) findViewById(R.id.username);
+        password = (EditText) findViewById(R.id.password);
 
 
+        btnLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(username.getText().toString().equals("newbesoft") && password.getText().toString().equals("12345678")) {
+                    Intent listProducts = new Intent(MainActivity.this, Main2Activity.class);
+                    startActivity(listProducts);
+
+                }else {
+                    System.out.println(username.getText().toString());
+                    System.out.println(password.getText().toString());
+                    Toast.makeText(MainActivity.this, "Credênciais inválidas, tente novamente!", Toast.LENGTH_SHORT).show();
+                }
+
+            }
+        });
     }
 }
